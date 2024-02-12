@@ -1,8 +1,21 @@
-<main class="px-4 w-full font-goudy">
-	<div class="w-full pt-4 flex flex-col items-center gap-8 h-[100dvh]">
-		<h1 class="text-7xl italic font-argent">Welcome to the Crowbar</h1>
-		<div class="w-full h-full items-stretch bg-red-300"></div>
-		<div class="absolute bottom-4 text-center font-argent italic animate-pulse">scroll down</div>
+<script>
+	import Scene from '$lib/components/three/Scene.svelte';
+	import { Canvas } from '@threlte/core';
+</script>
+
+<main class="w-full font-goudy">
+	<div class="relative w-full h-[100dvh]">
+		<div class="absolute w-full h-full items-stretch">
+			<Canvas>
+				<Scene />
+			</Canvas>
+		</div>
+		<div class="absolute top-0 z-10 w-full flex flex-col justify-between items-center">
+			<h1 class="text-7xl italic font-argent">Welcome to the Crowbar</h1>
+		</div>
+		<div class="absolute bottom-0 z-10 w-full">
+			<p class="w-full h-12 text-center font-argent italic animate-pulse">↓ scroll down ↓</p>
+		</div>
 	</div>
 	<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 		<h2 class="font-argent text-7xl">About</h2>
