@@ -20,9 +20,9 @@
 >
 	<OrbitControls />
 </T.PerspectiveCamera>
-<T.DirectionalLight position={[20, 20, 20]} castShadow />
-<T.Mesh position={[0, 3, 0]} rotation.y={rotation} castShadow>
+<T.Mesh position={[0, 3, 0]} rotation.y={rotation}>
 	<Assembly />
+	<T.DirectionalLight position={[2, 20, -10]} />
 
 	<!-- <T.MeshBasicMaterial /> -->
 </T.Mesh>

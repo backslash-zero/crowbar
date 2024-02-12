@@ -19,8 +19,8 @@ Command: npx @threlte/gltf@2.0.1 ../Assembly.glb
 	{#await gltf}
 		<slot name="fallback" />
 	{:then gltf}
-		<T.Mesh geometry={gltf.nodes.imagetostl_mesh0.geometry} scale={40} receiveShadow castShadow>
-			<T.MeshStandardMaterial color="#ffffff" receiveShadow castShadow />
+		<T.Mesh geometry={gltf.nodes.imagetostl_mesh0.geometry} scale={40} receiveShadow>
+			<T.MeshStandardMaterial color="#ffffff" receiveShadow />
 		</T.Mesh>
 	{:catch error}
 		<slot name="error" {error} />
