@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				argent: ['Argent Pixel CF']
+				argent: ['Argent Pixel CF'],
+				goudy: ['Goudy']
 			}
 		}
 	},
