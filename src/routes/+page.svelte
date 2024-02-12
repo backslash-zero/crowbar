@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="px-4">
+	<div class="w-full flex flex-col items-center">
+		<h1 class="text-7xl italic font-argent">Welcome to the Crowbar</h1>
+	</div>
+</main>
+
+<style lang="postcss">
+	:global(html) {
+		background-color: theme(colors.gray.100);
+	}
+</style>

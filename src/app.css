@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Argent Pixel CF';
+		src: local('Argent Pixel CF'), local('ArgentPixelCF'), local('Argent-Pixel-CF'),
+			local('argent-pixel-cF'), url('/fonts/Argent-Pixel-CF/ArgentPixelCF-Regular.otf');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Argent Pixel CF';
+		src: local('Argent Pixel CF'), local('ArgentPixelCF'), local('Argent-Pixel-CF'),
+			local('argent-pixel-cF'), url('/fonts/Argent-Pixel-CF/ArgentPixelCF-Italic.otf');
+		font-weight: normal;
+		font-style: italic;
+		font-display: swap;
+	}
+}
