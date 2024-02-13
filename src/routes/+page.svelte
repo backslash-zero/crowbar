@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Scene from '$lib/components/three/Scene.svelte';
 	import { Canvas } from '@threlte/core';
-
 	function scrollIntoView({ target }: any) {
 		const el = document.querySelector(target.getAttribute('href'));
 		if (!el) return;
@@ -33,7 +32,7 @@
 		<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 			<h2 class="font-argent text-7xl">About</h2>
 			<p>
-				The Crow Bar is interactive device tailored specifically to Corvids, aiming to lay the
+				The Crow Bar is an interactive device tailored specifically to Corvids, aiming to lay the
 				ground work for further research into their sensory perception and cognitive abilities.
 			</p>
 			<p>
@@ -41,7 +40,7 @@
 				user-friendly and easily replicable for widespread application.
 			</p>
 			<p>
-				The propose open-source design is meant to leverage Corvid’s remarkable curiosity and
+				The proposed open-source design is meant to leverage Corvid’s remarkable curiosity and
 				problem-solving abilities. The Design includes a two-step puzzle which acts as a threshold
 				to discriminate other birds to interact with the device.
 			</p>
@@ -51,7 +50,8 @@
 			<p>blablabla</p>
 		</div>
 		<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
-			<h2 class="font-argent text-7xl">Files</h2>
+			<h2 class="font-argent text-7xl">Ressources</h2>
+			<div class="w-full flex felx-col md:flex-row gap-4"></div>
 			<form action="https://cloud.udk-berlin.de/s/eBD8rkEke9tDGB8">
 				<input
 					type="submit"
@@ -59,25 +59,28 @@
 					value="3D-Print Files"
 				/>
 			</form>
+			<form action="https://stream.udk-berlin.de/a/c.meunier/video-channels">
+				<input
+					type="submit"
+					class="w-full md:w-auto font-argent italic text-2xl px-8 py-4 border-2 border-black hover:bg-slate-100 transition-all duration-300"
+					value="Live Streams"
+				/>
+			</form>
 		</div>
 		<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 			<h2 class="font-argent text-7xl">Credits</h2>
 			<p>
 				The Crowbar is a project by Finnegan Hardy and Célestin Meunier, made within the context of
-				the master's program Design & Computation, a join program between the University of Arts
-				Berlin and Technical University.
-			</p>
-			<p>
-				Thanks to everyone who helped on this project: Prof. Dr. Daniel D. Hromada for both his
-				technical support and his beautiful outlook on technology and every life forms
-			</p>
-			<p>
-				Everyone at <a
+				the Master's program <a
 					href="https://www.newpractice.net/study"
 					class="font-argent text-lg italic underline underline-offset-[6px]"
 					>Design & Computation</a
-				>
+				>, a join program between the University of Arts Berlin and Technical University.
 			</p>
+		</div>
+		<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
+			<h2 class="font-argent text-7xl">Thanks</h2>
+			<p>Prof. Dr. Daniel D. Hromada</p>
 		</div>
 		<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 			<h2 class="font-argent text-7xl">Contacts</h2>
