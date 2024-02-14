@@ -49,8 +49,8 @@
 					>
 						Corvids</strong
 					>
-					<PhotoButton pictureURL="./assets/photos/photo-8.png" /> (although it can have other applications
-					<PhotoButton pictureURL="./assets/photos/photo-9.png" />,), aiming to lay the ground work
+					<PhotoButton pictureURL="./assets/photos/photo-9.png" /> (although it can have other applications
+					<PhotoButton pictureURL="./assets/photos/photo-8.png" />,), aiming to lay the ground work
 					for further research into their sensory perception and cognitive abilities.
 				</p>
 				<p>
