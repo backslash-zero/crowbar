@@ -11,7 +11,7 @@
 </script>
 
 <main class="w-full font-goudy">
-	<div class="relative w-full h-[100dvh]">
+	<!-- <div class="relative w-full h-[100dvh]">
 		<div class="absolute w-full h-full items-stretch">
 			<Canvas>
 				<Scene />
@@ -27,7 +27,7 @@
 				class="w-full h-12 text-center font-argent italic animate-pulse">↓ scroll down ↓</a
 			>
 		</div>
-	</div>
+	</div> -->
 	<div class="w-full flex flex-col items-center px-4">
 		<div class="w-full md:max-w-screen-md" id="section-1">
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
@@ -38,7 +38,6 @@
 						height="100%"
 						src="https://stream.udk-berlin.de/videos/embed/058f0488-af2f-42ab-94f8-ba8001017338?start=22m2s"
 						frameborder="0"
-						allowfullscreen=""
 						sandbox="allow-same-origin allow-scripts allow-popups"
 					></iframe>
 				</div>
@@ -89,7 +88,8 @@
 				<h2 class="font-argent text-5xl md:text-7xl">Instructions</h2>
 
 				<div>
-					<h3 class="font-argent text-3xl">Step 1 - Resin print the following components:</h3>
+					<h3 class="font-argent text-3xl">Step 1</h3>
+					<p>Resin print the following components:</p>
 					<ul>
 						<li>Door</li>
 						<li>Paddle</li>
@@ -100,7 +100,8 @@
 				</div>
 
 				<div>
-					<h3 class="font-argent text-3xl">Step 2 - Filament print the following components:</h3>
+					<h3 class="font-argent text-3xl">Step 2</h3>
+					<p>Filament print the following components:</p>
 					<ul>
 						<li>Crow Perch Left</li>
 						<li>Crow Perch Right</li>
@@ -108,54 +109,90 @@
 					</ul>
 				</div>
 
-				<h3 class="font-argent text-3xl">
-					Step 3 - Screw threaded inserts into bottom thread of tube
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 4 - Screw threaded inserts into door hinge hole at front of tube
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 5 - Attach feeding bowl to Tube using 1 washer and 1 M6x25 screw
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 6 - Attach door to Tube using 1 washer and 1 M6x15 screw
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 7 - Place Tube + Feeding bowl onto mounting plate and trace the screw hole outlines
-					onto the plate
-				</h3>
-				<h3 class="font-argent text-3xl">Step 8 - Connect Crow Perch Left with Crow Perch Right</h3>
-				<h3 class="font-argent text-3xl">
-					Step 9 - Place assembled Crow Perch onto the mounting plate towards lower edge and trace
-					screw hole
-				</h3>
-				<h3 class="font-argent text-3xl">Step 10 - Drill marked holes with 8mm drill bit</h3>
-				<h3 class="font-argent text-3xl">
-					Step 11 - Cut insets into mounting plate so as to ensure screw heads are flush with
-					mountain board surface
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 12 - Attach components to the plate, with the screwheads facing to the rear
-				</h3>
-				<h3 class="font-argent text-3xl">
-					Step 13 - Attach gecko tape to the back of the mounting plate
-				</h3>
-				<h3 class="font-argent text-3xl">Step 14 - Mount to your surface of choice</h3>
+				<div>
+					<h3 class="font-argent text-3xl">Step 3</h3>
+					<p>Screw threaded inserts into bottom thread of tube</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 4</h3>
+					<p>Screw threaded inserts into door hinge hole at front of tube</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 5</h3>
+					<p>Attach feeding bowl to Tube using 1 washer and 1 M6x25 screw</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 6</h3>
+					<p>Attach door to Tube using 1 washer and 1 M6x15 screw</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 7</h3>
+					<p>
+						Place Tube + Feeding bowl onto mounting plate and trace the screw hole outlines onto the
+						plate
+					</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 8</h3>
+					<p>Connect Crow Perch Left with Crow Perch Right</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 9</h3>
+					<p>
+						Place assembled Crow Perch onto the mounting plate towards lower edge and trace screw
+						hole
+					</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 10</h3>
+					<p>Drill marked holes with 8mm drill bit</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 11</h3>
+					<p>
+						Cut insets into mounting plate so as to ensure screw heads are flush with mountain board
+						surface
+					</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 12</h3>
+					<p>Attach components to the plate, with the screwheads facing to the rear</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 13</h3>
+					<p>Attach gecko tape to the back of the mounting plate</p>
+				</div>
+
+				<div>
+					<h3 class="font-argent text-3xl">Step 14</h3>
+					<p>Mount to your surface of choice</p>
+				</div>
 			</div>
+
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 				<h2 class="font-argent text-5xl md:text-7xl">Ressources</h2>
 				<div class="w-full flex flex-col md:flex-row gap-4">
 					<form action="https://cloud.udk-berlin.de/s/eBD8rkEke9tDGB8">
 						<input
 							type="submit"
-							class="w-full md:w-auto font-argent italic text-2xl px-8 py-4 border-2 border-black hover:bg-slate-100 transition-all duration-300"
+							class="w-full md:w-auto font-argent italic text-2xl px-8 py-4 border-2 border-black hover:bg-slate-100 transition-all duration-300 cursor-pointer"
 							value="3D-Print Files"
 						/>
 					</form>
 					<form action="https://stream.udk-berlin.de/a/c.meunier/video-channels">
 						<input
 							type="submit"
-							class="w-full md:w-auto font-argent italic text-2xl px-8 py-4 border-2 border-black hover:bg-slate-100 transition-all duration-300"
+							class="w-full md:w-auto font-argent italic text-2xl px-8 py-4 border-2 border-black hover:bg-slate-100 transition-all duration-300 cursor-pointer"
 							value="Live Streams"
 						/>
 					</form>
@@ -177,7 +214,7 @@
 				<h2 class="font-argent text-5xl md:text-7xl">Thanks</h2>
 				<p>
 					Prof. Dr. Daniel D. Hromada, Prof. Albert Lang, Friedrich Goizel, Kräri the Crow, whoever
-					built stream.udk.ai
+					built udk-berlin.de
 				</p>
 			</div>
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
