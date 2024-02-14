@@ -10,7 +10,12 @@
 	export let pictureURL: string = '';
 </script>
 
-<span on:click={togglePhotoVisibility}>
+<button
+	on:click={togglePhotoVisibility}
+	class="cursor-pointer hover:opacity-50 transition-all duration-300"
+>
 	<EyeIcon />
-</span>
-<PhotoOverlay {pictureURL} on:clik={togglePhotoVisibility} />
+</button>
+{#if isPhotoVisible}
+	<PhotoOverlay {pictureURL} on:click={togglePhotoVisibility} />
+{/if}

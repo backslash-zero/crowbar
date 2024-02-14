@@ -1,4 +1,5 @@
 <script lang="ts">
+	import PhotoButton from '$lib/components/photos/PhotoButton.svelte';
 	import Scene from '$lib/components/three/Scene.svelte';
 	import { Canvas } from '@threlte/core';
 	function scrollIntoView({ target }: any) {
@@ -11,7 +12,7 @@
 </script>
 
 <main class="w-full font-goudy">
-	<!-- <div class="relative w-full h-[100dvh]">
+	<div class="relative w-full h-[100dvh]">
 		<div class="absolute w-full h-full items-stretch">
 			<Canvas>
 				<Scene />
@@ -27,7 +28,7 @@
 				class="w-full h-12 text-center font-argent italic animate-pulse">↓ scroll down ↓</a
 			>
 		</div>
-	</div> -->
+	</div>
 	<div class="w-full flex flex-col items-center px-4">
 		<div class="w-full md:max-w-screen-md" id="section-1">
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
@@ -47,12 +48,14 @@
 						class="font-argent text-lg italic"
 					>
 						Corvids</strong
-					>, aiming to lay the ground work for further research into their sensory perception and
-					cognitive abilities.
+					>
+					<PhotoButton pictureURL="./assets/photos/photo-8.png" /> (although it can have other applications
+					<PhotoButton pictureURL="./assets/photos/photo-9.png" />,), aiming to lay the ground work
+					for further research into their sensory perception and cognitive abilities.
 				</p>
 				<p>
 					The device is designed to not only facilitate in-depth study of Corvids but also to be
-					user-friendly and easily replicable for widespread application.
+					user-friendly, inexpensive, and easily replicable for widespread application.
 				</p>
 				<p>
 					The proposed <strong class="font-argent text-lg italic">open-source</strong> design is meant
@@ -63,7 +66,11 @@
 			</div>
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 				<h2 class="font-argent text-5xl md:text-7xl">What you'll need</h2>
-				<p>The Crow Bar is conceived as a fully modular and adaptive artefact.</p>
+				<p>
+					The Crow Bar is conceived as a fully modular and adaptive artefact.<PhotoButton
+						pictureURL="./assets/photos/photo-2.jpg"
+					/>,
+				</p>
 				<ul>
 					<li>Access to 1 Resin Printer</li>
 					<li>Access to 1 Filament Printer</li>
@@ -88,7 +95,9 @@
 				<h2 class="font-argent text-5xl md:text-7xl">Instructions</h2>
 
 				<div>
-					<h3 class="font-argent text-3xl">Step 1</h3>
+					<h3 class="font-argent text-3xl">
+						Step 1 <PhotoButton pictureURL="./assets/photos/photo-3.jpg" />
+					</h3>
 					<p>Resin print the following components:</p>
 					<ul>
 						<li>Door</li>
@@ -100,7 +109,9 @@
 				</div>
 
 				<div>
-					<h3 class="font-argent text-3xl">Step 2</h3>
+					<h3 class="font-argent text-3xl">
+						Step 2 <PhotoButton pictureURL="./assets/photos/photo-1.jpg" />
+					</h3>
 					<p>Filament print the following components:</p>
 					<ul>
 						<li>Crow Perch Left</li>
@@ -156,7 +167,9 @@
 				</div>
 
 				<div>
-					<h3 class="font-argent text-3xl">Step 11</h3>
+					<h3 class="font-argent text-3xl">
+						Step 11 <PhotoButton pictureURL="./assets/photos/photo-4.jpg" />,
+					</h3>
 					<p>
 						Cut insets into mounting plate so as to ensure screw heads are flush with mountain board
 						surface
@@ -219,7 +232,11 @@
 			</div>
 			<div class="font-goudy py-4 text-xl w-full flex flex-col gap-4 md:max-w-screen-lg">
 				<h2 class="font-argent text-5xl md:text-7xl">Contacts</h2>
-				<p>Feel free to send us questions or picture of your Crowbar at (at) celest.in</p>
+				<p>
+					Feel free to send us questions or picture <PhotoButton
+						pictureURL="./assets/photos/photo-7.jpg"
+					/>, of your Crowbar at (at) celest.in
+				</p>
 			</div>
 		</div>
 	</div>
